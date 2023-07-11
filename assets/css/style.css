@@ -79,10 +79,7 @@ h2 {
     ;
     background-size: contain;
     min-height: 750px;
-    width: 100%;
-    
-   
-    
+    margin-bottom: 75px;
 }
 
 #intro-text {
@@ -95,12 +92,11 @@ h2 {
 
 #intro-text h2 {
     font-size: 225%;
+    padding-bottom: 25px;
 }
 p {
-
     font-size: 125%;
     word-spacing: 2px;
-   
 }
 
 hr {
@@ -110,9 +106,7 @@ hr {
 /* Second section */
 
 #section-two {
-    margin-top: 100px;
-    height: 400px;
-    width: inherit;
+    min-height: 500px;
     background-color: rgba(254, 180, 132, 0.8);
     padding: 5% 10%;
     letter-spacing: 1px;
@@ -145,8 +139,9 @@ img {
 }
 
 footer {
+    font-size: 125%;
     text-align: center;
-    margin: 15px 0;
+    margin: 25px 0;
 
 }
 footer a {
