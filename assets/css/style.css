@@ -162,3 +162,6 @@ footer a {
 
 }
 
+footer a:hover {
+    border-bottom: solid 1px #3a3a3a;
+}
