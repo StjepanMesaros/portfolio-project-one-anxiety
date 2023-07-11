@@ -21,13 +21,9 @@ body {
 
 #logo {
     font-weight: 700;
- 
     font-size: 480%;
     margin-left: 10%;
-    margin-top: 10%;
-    
-    
-    
+    margin-top: 10%;   
 
 }
 
@@ -45,8 +41,6 @@ h2 {
 #nav-bar {
     font-size: 110%;
     letter-spacing: 4px;
-  
-    margin-top: -15px;
    
 }
 
@@ -78,28 +72,22 @@ h2 {
 /* Home page background */
 
 #home-page-background-img {
-    position: relative;
-    top: 75px; 
     background: 
     url("../images/home-page-background.jpg")
     no-repeat
     right top
     ;
     background-size: contain;
-    height: 750px;
+    min-height: 750px;
     width: 100%;
-    z-index: -1;
     
    
     
 }
 
 #intro-text {
-    
-    position: absolute;
-    margin-left: 15%;
-    margin-top: 15%;
-    margin-right: 50%;
+    padding-left: 15%;
+    padding-top: 5%;
     letter-spacing: 1px;
     width: 50%;
 
@@ -109,7 +97,7 @@ h2 {
     font-size: 225%;
 }
 p {
-    padding-top: 25px;
+
     font-size: 125%;
     word-spacing: 2px;
    
