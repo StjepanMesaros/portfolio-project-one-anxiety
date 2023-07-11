@@ -14,12 +14,18 @@ body {
 }
 
 /* heading and logo*/
+#top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 #logo {
     font-weight: 700;
-    float: left;
+ 
     font-size: 480%;
     margin-left: 10%;
     margin-top: 10%;
+    
     
     
 
@@ -39,7 +45,7 @@ h2 {
 #nav-bar {
     font-size: 110%;
     letter-spacing: 4px;
-    float: right;
+  
     margin-top: -15px;
    
 }
