@@ -100,16 +100,13 @@ p {
     word-spacing: 2px;
 }
 
-hr {
-    size: 1px;
-}
 
 /* Second section */
 
 #section-two {
     min-height: 500px;
     background-color: rgba(248, 210, 128, 0.8);
-    padding: 5% 15%;
+    padding: 5% 15% 0 15%;
     letter-spacing: 1px;
     
 }
@@ -125,8 +122,7 @@ hr {
 
 ul {
     list-style-type: circle;
-    margin-left: 50px;
-    margin-top: 25px;
+    word-spacing: 2px;
     font-size: 125%;
 }
 
