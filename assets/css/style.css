@@ -195,3 +195,12 @@ form label,textarea,input {
 #submit {
     max-width: 150px;
 }
+
+
+#thank-you-message {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 150%;
+    text-decoration: underline;
+}
