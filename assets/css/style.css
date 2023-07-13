@@ -7,6 +7,7 @@
     border: none;
 }
 
+
 body {
     font-family: Bacasime Antique, sans-serif;
     font-weight: 600;
@@ -142,8 +143,8 @@ footer {
     font-size: 125%;
     text-align: center;
     margin: 25px 0;
-
 }
+
 footer a {
     text-decoration: none;
     color: inherit;
@@ -153,4 +154,44 @@ footer a {
 
 footer a:hover {
     border-bottom: solid 1px #3a3a3a;
+}
+
+
+
+/* Contact form */
+
+#contact-us-body {
+    background-color: rgba(246, 198, 96, 0.8);
+    
+}
+
+
+
+#contact-form-div {
+    margin-top: 5%;
+}
+
+input {
+    border: 1px solid #3a3a3a;
+    padding: 5px;
+}
+textarea {
+    border: 1px solid #3a3a3a;
+    padding: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    
+}
+
+
+form label,textarea,input {
+    margin-top: 10px;
+}
+
+#submit {
+    max-width: 150px;
 }

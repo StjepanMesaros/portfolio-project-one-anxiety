@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact Us</title>
 </head>
-<body>
+<body id="contact-us-body">
     <header id="top-container">
         <h1 id="logo">Contact Us</h1>
         <nav id="nav-bar">
@@ -27,13 +27,21 @@
             </ul>
         </nav>
     </header>
-    <div>
+    <div id="contact-form-div">
         <form action="thank-you.html" method="post">
-            <input type="username" name="username">
-            <input type="email" name="email">
-            <input type="submit" name="Send">
+            <label for="username">Name:</label>
+            <input type="username" name="username" id="username">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="content">Your Message:</label>
+            <textarea name="content" id="content" cols="30" rows="10"></textarea>
+            <input type="submit" name="submit" id="submit" value="Send">
         </form>
     </div>
+
+    
     
 </body>
+
+
 </html>
