@@ -17,9 +17,17 @@ body {
 /* heading and logo*/
 #top-container {
     display: flex;
-    justify-content: space-between;
+    
 }
-
+@media screen and (max-width: 425px) {
+    #top-container {
+        display: flex;
+        flex-direction: column;        
+    }
+    body {
+       overflow: auto;
+    }
+  }
 #logo {
     font-weight: 700;
     font-size: 480%;
@@ -106,7 +114,7 @@ p {
 #section-two {
     min-height: 500px;
     background-color: rgba(248, 210, 128, 0.8);
-    padding: 5% 15% 0 15%;
+    padding: 5% 15%;
     letter-spacing: 1px;
     
 }
