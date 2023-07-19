@@ -110,7 +110,7 @@ p {
 
 }
 
-#section-two-content{
+#section-two-content {
     display: flex;
     justify-content: space-evenly;
 }
@@ -206,14 +206,14 @@ input {
         margin-left: 0;
     }
 
-   #nav-bar {
-    font-size: 90%;
-   }
+    #nav-bar {
+        font-size: 90%;
+    }
 
     #home-page-background-img {
         background:
             url("../images/home-page-background.jpg") no-repeat right bottom;
-            background-size: contain;
+        background-size: contain;
         padding-bottom: 200px;
         margin-bottom: 50px;
     }
@@ -231,7 +231,8 @@ input {
         display: flex;
         flex-direction: column;
     }
-    #section-two-content > div {
+
+    #section-two-content>div {
         display: flex;
         flex-direction: column;
     }
