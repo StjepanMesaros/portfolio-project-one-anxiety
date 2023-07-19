@@ -198,6 +198,54 @@ input {
 }
 
 /* Media Queries */
+@media screen and (max-width: 1024px) {
+    #top-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #logo {
+        margin-left: 0;
+    }
+
+    #nav-bar {
+        font-size: 90%;
+    }
+
+    #home-page-background-img {
+        background:
+            url("../images/home-page-background.jpg") no-repeat right bottom;
+        background-size: contain;
+        padding-bottom: 350px;
+        margin-bottom: 50px;
+    }
+
+    #intro-text {
+        padding: 5% 5% 5% 10%;
+        letter-spacing: 1px;
+        width: 80%;
+        margin-right: 1px;
+        font-size: 90%;
+    }
+
+    /* Section two */
+    #section-two-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section-two-content>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact-form-div {
+        min-height: 65vh;
+
+    }
+
+}
 @media screen and (max-width: 425px) {
     #top-container {
         display: flex;
@@ -246,3 +294,4 @@ input {
     }
 
 }
+
