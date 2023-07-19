@@ -110,9 +110,9 @@ p {
 
 }
 
-#section-two>div {
+#section-two-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 ul {
@@ -225,5 +225,16 @@ input {
         margin-right: 1px;
         font-size: 90%;
     }
+
+    /* Section two */
+    #section-two-content {
+        display: flex;
+        flex-direction: column;
+    }
+    #section-two-content > div {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
