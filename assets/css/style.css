@@ -12,6 +12,7 @@ body {
     font-family: Bacasime Antique, sans-serif;
     font-weight: 600;
     color: #3a3a3a;
+    
 }
 
 /* heading and logo*/
@@ -124,6 +125,7 @@ ul {
 
 /* Footer */
 
+
 footer {
     font-size: 125%;
     text-align: center;
@@ -154,6 +156,7 @@ footer a:hover {
 
 #contact-form-div {
     margin-top: 5%;
+    min-height: 60vh;
 }
 
 input {
@@ -237,5 +240,9 @@ input {
         flex-direction: column;
     }
 
+    #contact-form-div {
+        min-height: 65vh;
+
+    }
 
 }
