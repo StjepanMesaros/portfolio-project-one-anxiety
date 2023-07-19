@@ -52,7 +52,7 @@ h2 {
 
 #nav-bar li {
     list-style-type: none;
-    margin-right: 2.5%;
+    margin-right: 25px;
     display: inline-block;
 }
 
@@ -115,15 +115,12 @@ p {
     justify-content: space-around;
 }
 
-
-
-
-
 ul {
     list-style-type: circle;
     word-spacing: 2px;
     font-size: 125%;
 }
+
 
 /* Footer */
 
