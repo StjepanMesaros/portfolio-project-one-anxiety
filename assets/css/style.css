@@ -295,3 +295,26 @@ input {
 
 }
 
+/* Coping Mechanism Page */
+
+#coping-mechanism-content {
+    margin-top: 2.5%;
+    padding: 2.5% 10%;
+    background-color: rgba(248, 210, 128, 0.8);
+}
+
+#types-of-treatment {
+    display: flex;
+    justify-content: space-between;
+}
+
+#types-of-treatment div {
+    padding: 2.5%;
+    max-width: 50%;
+}
+
+#treatment-video {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
