@@ -86,8 +86,9 @@ h2 {
     padding-left: 15%;
     padding-top: 5%;
     letter-spacing: 1px;
-    width: 50%;
-
+}
+#intro-text p {
+    width: 60%;
 }
 
 h2 {
@@ -198,6 +199,12 @@ input {
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 1440px) {
+    #intro-text p{
+        width: 37.5%;
+    }
+}
 @media screen and (max-width: 1024px) {
     #top-container {
         display: flex;
@@ -217,16 +224,18 @@ input {
         background:
             url("../images/home-page-background.jpg") no-repeat right bottom;
         background-size: contain;
-        padding-bottom: 350px;
+        padding-bottom: 400px;
         margin-bottom: 50px;
     }
 
     #intro-text {
         padding: 5% 5% 5% 10%;
         letter-spacing: 1px;
-        width: 80%;
         margin-right: 1px;
         font-size: 90%;
+    }
+    #intro-text p {
+        width: 90%;
     }
 
     /* Section two */
@@ -265,16 +274,17 @@ input {
         background:
             url("../images/home-page-background.jpg") no-repeat right bottom;
         background-size: contain;
-        padding-bottom: 200px;
+        padding-bottom: 250px;
         margin-bottom: 50px;
     }
 
     #intro-text {
         padding: 5% 5% 5% 10%;
         letter-spacing: 1px;
-        width: 80%;
-        margin-right: 1px;
         font-size: 90%;
+    }
+    #intro-text p {
+        width: 90%;
     }
 
     /* Section two */
@@ -314,7 +324,20 @@ input {
 }
 
 #treatment-video {
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     max-width: 100%;
+}
+
+@media screen and (max-width: 452px){
+    #types-of-treatment {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #types-of-treatment p {
+        width: 175%;
+    }
+    
 }
