@@ -28,23 +28,14 @@ This is the main marketing website for Code Institute. It is designed to be resp
     -   #### Imagery
         -   Images were chosen in regards to the topic of the website; meaning that they were chosen to be calm and stylish and artistic.   
 
-
-
-
-
-
-
-
-
-/* This is where I am */
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page - <img src="assets/images/wireframe-1.png" >
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Coping Mechanisms Page - <img src="assets/images/wireframe-2.png" >
+    -   Contact Us Page - <img src="assets/images/wireframe-3.png" >
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
-
+/* This is where I am */
 ## Features
 
 -   Responsive on all device sizes
