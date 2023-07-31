@@ -7,12 +7,10 @@
     border: none;
 }
 
-
 body {
     font-family: "Bacasime Antique", sans-serif;
     font-weight: 600;
     color: #3a3a3a;
-    
 }
 
 /* heading and logo*/
@@ -27,11 +25,9 @@ body {
     font-size: 480%;
     margin-left: 10%;
     margin-top: 10%;
-
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: "Agdasima", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -39,15 +35,12 @@ h2 {
 }
 
 /* navigation links */
-
 #nav-bar {
     font-size: 110%;
     letter-spacing: 4px;
-
 }
 
-#nav-bar,
-#logo {
+#nav-bar, #logo {
     line-height: 75px;
 }
 
@@ -70,10 +63,7 @@ h2 {
     border-bottom: solid 1px #3a3a3a;
 }
 
-
-
 /* Home page background */
-
 #home-page-background-img {
     background:
         url("../images/home-page-background.jpg") no-repeat right top;
@@ -101,15 +91,12 @@ p {
     word-spacing: 2px;
 }
 
-
 /* Second section */
-
 #section-two {
     min-height: 500px;
     background-color: rgba(248, 210, 128, 0.8);
     padding: 5% 15%;
     letter-spacing: 1px;
-
 }
 
 #section-two-content {
@@ -123,10 +110,7 @@ ul {
     font-size: 125%;
 }
 
-
 /* Footer */
-
-
 footer {
     font-size: 100%;
     text-align: center;
@@ -137,23 +121,17 @@ footer a {
     text-decoration: none;
     color: inherit;
     margin-right: 10px;
-
 }
 
 footer a:hover {
     border-bottom: solid 1px #3a3a3a;
 }
 
-
-
 /* Contact form */
-
 #contact-us-body {
     background-color: rgba(248, 210, 128, 0.8);
 
 }
-
-
 
 #contact-form-div {
     margin-top: 5%;
@@ -178,10 +156,7 @@ form {
 
 }
 
-
-form label,
-textarea,
-input {
+form label, textarea, input {
     margin-top: 10px;
     border-radius: 25px;
 }
@@ -189,7 +164,6 @@ input {
 #submit {
     max-width: 150px;
 }
-
 
 #thank-you-message {
     display: flex;
@@ -200,7 +174,6 @@ input {
 }
 
 /* Media Queries */
-
 @media screen and (max-width: 1440px) {
     #intro-text p{
         width: 37.5%;
@@ -255,9 +228,7 @@ input {
 
     #contact-form-div {
         min-height: 65vh;
-
     }
-
 }
 @media screen and (max-width: 425px) {
     #top-container {
@@ -285,34 +256,32 @@ input {
         padding-bottom: 250px;
         margin-bottom: 50px;
     }
-
+    
     #intro-text {
         padding: 5% 5% 5% 10%;
         letter-spacing: 1px;
         font-size: 90%;
     }
+    
     #intro-text p {
         width: 90%;
     }
-
-    /* Section two */
+    
+    /* Section two */    
     #section-two-content {
         display: flex;
         flex-direction: column;
     }
-
+    
     #section-two-content>div {
         display: flex;
         flex-direction: column;
     }
-
+    
     #contact-form-div {
         min-height: 65vh;
-
     }
-
 }
-
 /* Coping Mechanism Page */
 
 #coping-mechanism-content {
@@ -346,8 +315,7 @@ input {
     }
     #types-of-treatment p {
         width: 175%;
-    }
-    
+    }   
 }
 
 @media screen and (max-width: 600px){
