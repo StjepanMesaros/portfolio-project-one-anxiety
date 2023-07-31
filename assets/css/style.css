@@ -323,7 +323,7 @@ input {
 
 #types-of-treatment {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #types-of-treatment div {
@@ -350,10 +350,23 @@ input {
     
 }
 
+@media screen and (max-width: 600px){
+    #types-of-treatment {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #types-of-treatment p {
+        width: 175%;
+    }
+    
+}
+
 /* Thank you message */
 
 #thank-you-message {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 40vh;
 }
