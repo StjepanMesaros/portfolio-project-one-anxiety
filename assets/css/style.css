@@ -230,7 +230,7 @@ input {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 428px) {
     #menu {
         visibility: visible;
         position: static;
