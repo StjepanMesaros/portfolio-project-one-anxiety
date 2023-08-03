@@ -36,7 +36,13 @@ h2 {
 
 /* NAVIGATION BAR */
 
-
+#menu {
+    font-family: "Bacasime Antique", sans-serif;
+    color: #3a3a3a;
+    background: none;
+    font-weight: 600;
+    font-size: 20px;
+}
 
 #nav-bar {
     letter-spacing: 2px;
@@ -248,10 +254,10 @@ input {
         transition: 0.5s linear;
         display: block;
     }
-    a:focus+#menu-list {
+    button:focus+#menu-list {
         max-height: 15em;
     }
-    a[href="menu"]:focus {
+    button[id="menu"]:focus {
         pointer-events: none;
     } 
 
