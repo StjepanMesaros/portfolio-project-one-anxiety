@@ -214,9 +214,7 @@ input {
     #section-one-content, #section-two-content {
         padding: 7.5%;
     }
-    #section-one img {
-        max-width: 100%;
-        height: auto;
+    #section-one-image {
         margin-left: auto;
     }
     #section-two-image {
