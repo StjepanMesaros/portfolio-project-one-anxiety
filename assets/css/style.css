@@ -230,6 +230,12 @@ input {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    form {
+        max-width: 70%;
+    }
+}
+
 @media screen and (max-width: 428px) {
     #menu {
         visibility: visible;
@@ -245,14 +251,14 @@ input {
     img {
         max-width: 100%;
         height: auto;
-        width: auto\9
     }
-
     a:focus+#menu-list {
         max-height: 15em;
     }
-
     a[href="menu"]:focus {
         pointer-events: none;
+    }
+    #submit {
+        max-width: 100px;
     }
 }
