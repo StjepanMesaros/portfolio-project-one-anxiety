@@ -255,8 +255,9 @@ input {
     a:focus+#menu-list {
         max-height: 15em;
     }
-    a[id="menu"]:focus {
+    a[href="menu"]:focus {
         pointer-events: none;
+        touch-action: none;
     }
     #submit {
         max-width: 100px;
