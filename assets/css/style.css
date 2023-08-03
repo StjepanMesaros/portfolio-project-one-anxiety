@@ -168,7 +168,7 @@ form label,
 textarea,
 input {
     margin-top: 10px;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 #submit {
@@ -197,7 +197,7 @@ input {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 2560px) {
     #menu {
         visibility: hidden;
         position: absolute;
@@ -210,6 +210,19 @@ input {
 
     #nav-bar ul {
         list-style: none;
+    }
+    #section-one-content {
+        padding: 7.5%;
+    }
+    #section-one img {
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+    }
+    #section-two-img {
+        margin: auto;
+        max-width: 100%;
+        height: auto;
     }
 
     iframe {
@@ -229,6 +242,11 @@ input {
         overflow: hidden;
         transition: 0.5s linear;
         display: block;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9
     }
 
     a:focus+#menu-list {
