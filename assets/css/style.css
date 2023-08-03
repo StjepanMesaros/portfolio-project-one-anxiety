@@ -255,7 +255,7 @@ input {
     a:focus+#menu-list {
         max-height: 15em;
     }
-    a[href="menu"]:focus {
+    a[id="menu"]:focus {
         pointer-events: none;
     }
     #submit {
