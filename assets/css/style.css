@@ -248,17 +248,18 @@ input {
         transition: 0.5s linear;
         display: block;
     }
-    img {
-        max-width: 100%;
-        height: auto;
-    }
     a:focus+#menu-list {
         max-height: 15em;
     }
     a[href="menu"]:focus {
         pointer-events: none;
-        touch-action: none;
+    } 
+
+    img {
+        max-width: 100%;
+        height: auto;
     }
+    
     #submit {
         max-width: 100px;
     }
