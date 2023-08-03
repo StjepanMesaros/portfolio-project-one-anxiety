@@ -211,7 +211,7 @@ input {
     #nav-bar ul {
         list-style: none;
     }
-    #section-one-content {
+    #section-one-content, #section-two-content {
         padding: 7.5%;
     }
     #section-one img {
@@ -219,10 +219,8 @@ input {
         height: auto;
         margin-left: auto;
     }
-    #section-two-img {
+    #section-two-image {
         margin: auto;
-        max-width: 100%;
-        height: auto;
     }
 
     iframe {
