@@ -220,6 +220,9 @@ input {
     #section-two-image {
         margin: auto;
     }
+    img{
+        max-width: 100%;
+    }
 
     iframe {
         width: 700px;
