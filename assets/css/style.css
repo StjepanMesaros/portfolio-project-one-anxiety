@@ -248,7 +248,6 @@ input {
     #menu-list {
         display: none;
     }
-    header #nav-bar ul li:hover > ul,
     header #nav-bar ul li:hover > ul {
         display: initial;
     }
