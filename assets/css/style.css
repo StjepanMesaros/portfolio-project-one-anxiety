@@ -208,12 +208,10 @@ input {
         visibility: hidden;
         position: absolute;
     }
-
     #menu-list {
         display: flex;
         justify-content: space-evenly;
     }
-
     #nav-bar ul {
         list-style: none;
     }
@@ -247,19 +245,13 @@ input {
         visibility: visible;
         position: static;
     }
-
     #menu-list {
-        max-height: 0;
-        overflow: hidden;
-        transition: 0.5s linear;
-        display: block;
+        display: none;
     }
-    button:focus+#menu-list {
-        max-height: 15em;
+    header #nav-bar ul li:hover > ul,
+    header #nav-bar ul li:hover > ul {
+        display: initial;
     }
-    button[id="menu"]:focus {
-        pointer-events: none;
-    } 
 
     img {
         max-width: 100%;
