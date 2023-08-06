@@ -35,13 +35,11 @@ h2 {
 }
 
 /* NAVIGATION BAR */
-
-#menu {
-    font-family: "Bacasime Antique", sans-serif;
-    color: #3a3a3a;
-    background: none;
-    font-weight: 600;
-    font-size: 20px;
+#menu-list {
+    display: none;
+}
+header #nav-bar ul li:hover > ul {
+    display: initial;
 }
 
 #nav-bar {
@@ -78,6 +76,10 @@ h2 {
     letter-spacing: 0.25px;
 }
 
+#section-one-image img {
+    width: 100%;
+}
+
 
 /* HOME PAGE SECTION TWO */
 #section-two {
@@ -100,6 +102,10 @@ h2 {
 
 #section-two li {
     margin-bottom: 10px;
+}
+
+#section-two-image img {
+    width: 100%;
 }
 
 
@@ -203,61 +209,6 @@ input {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 2560px) {
-    #menu {
-        visibility: hidden;
-        position: absolute;
-    }
-    #menu-list {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    #nav-bar ul {
-        list-style: none;
-    }
-    #section-one-content, #section-two-content {
-        padding: 7.5%;
-    }
-    #section-one-image {
-        margin-left: auto;
-    }
-    #section-two-image {
-        margin: auto;
-    }
-    img{
-        max-width: 100%;
-    }
 
-    iframe {
-        width: 700px;
-        height: 400px;
-    }
-}
 
-@media screen and (max-width: 1024px) {
-    form {
-        max-width: 70%;
-    }
-}
 
-@media screen and (max-width: 428px) {
-    #menu {
-        visibility: visible;
-        position: static;
-    }
-    #menu-list {
-        display: none;
-    }
-    header #nav-bar ul li:hover > ul {
-        display: initial;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    #submit {
-        max-width: 100px;
-    }
-}
