@@ -130,7 +130,7 @@ footer a:hover {
     background-color: rgba(248, 210, 128, 0.8);
     display: flex;
     flex-direction: column;
-    padding: 12.5%;
+    padding: 10%;
     margin-top: 50px;
 }
 
@@ -247,6 +247,7 @@ input {
 }
 
 @media screen and (min-width: 800px) {
+    /* HOME PAGE */
     #section-one-image {
         max-width: 60%;
         margin-left: auto;
@@ -256,17 +257,18 @@ input {
         max-width: 50%;
         margin: auto;
     }
-
-    #section-one-content, #section-two-content {
+     /* Changed padding for homepage and coping mechanisms page */
+    #section-one-content, #section-two-content, #coping-mechanisms-section-one {
         padding: 5%;
     }
-
+   
     #section-one, #section-two {
         margin-top: 5%;
     }
 }
 
 @media screen and (min-width: 1024px) {
+    /* HOME PAGE */
     #section-one, #section-two {
         flex-direction: row;
     }
@@ -284,12 +286,10 @@ input {
         max-width: 40%;
     }
 
-    #coping-mechanisms-section-one {
-        padding: 7.5%;
-    }
 }
 
 @media screen and (min-width: 1440px) {
+    /* HOME PAGE */
     #section-one-image {
         max-width: 45%;
     }
@@ -298,9 +298,28 @@ input {
         max-width: 30%;
     }
 
+    /* CONTACT US PAGE */
     form {
         max-width: 50%;
     }
 }
 
+@media screen and (min-width: 2560px) {
+    body {
+        font-size: 150%;
+    }
+    /* HOME PAGE */
+    #section-one-image {
+        width: 60%;
+    }
+
+    #section-two-image {
+        max-width: 30%;
+    }
+
+    /* CONTACT US PAGE */
+    form {
+        max-width: 50%;
+    }
+}
 
