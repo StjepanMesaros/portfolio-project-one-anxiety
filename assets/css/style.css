@@ -171,7 +171,7 @@ textarea {
 form {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
 
 }
@@ -181,10 +181,6 @@ textarea,
 input {
     margin-top: 10px;
     border-radius: 10px;
-}
-
-#submit {
-    max-width: 150px;
 }
 
 /* THANK YOU PAGE */
