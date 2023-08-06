@@ -74,6 +74,7 @@ header #nav-bar ul li:hover > ul {
     margin-top: 15px;
     word-spacing: 1px;
     letter-spacing: 0.25px;
+    
 }
 
 #section-one-image img {
@@ -145,6 +146,7 @@ footer a:hover {
 #types-of-treatment p {
     letter-spacing: 0.25px;
     word-spacing: 1px;
+    line-height: 1.5rem;
 }
 
 #treatment-video {
