@@ -283,6 +283,24 @@ input {
     #section-two-image {
         max-width: 40%;
     }
+
+    #coping-mechanisms-section-one {
+        padding: 7.5%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #section-one-image {
+        max-width: 45%;
+    }
+
+    #section-two-image {
+        max-width: 30%;
+    }
+
+    form {
+        max-width: 50%;
+    }
 }
 
 
