@@ -78,13 +78,15 @@ This is an educational and informative website concerning Anxiety; one of highly
 
 ## Testing
 
-### W3C Validator
+### Code Validation
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/html-validation.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/css-validation.png)
 
+### Accessibility Test
+### Performance Test
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.

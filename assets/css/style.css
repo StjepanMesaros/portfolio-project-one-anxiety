@@ -112,8 +112,12 @@ header #nav-bar ul li:hover > ul {
 
 /* Footer */
 footer {
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    margin: 25px;
+padding: 5%;
+    letter-spacing: 1px;
+    font-size: 50%;
 }
 
 footer a {
@@ -245,7 +249,16 @@ input {
     #submit {
         max-width: 200px;
     }
+    footer {
+        font-size: 60%;
+    }
     
+}
+
+@media screen and (min-width: 425px) {
+    footer {
+        font-size: 70%;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -263,9 +276,12 @@ input {
     #section-one-content, #section-two-content, #coping-mechanisms-section-one {
         padding: 5%;
     }
-   
+
     #section-one, #section-two {
         margin-top: 5%;
+    }
+    footer {
+        font-size: 80%;
     }
 }
 
@@ -303,6 +319,10 @@ input {
     /* CONTACT US PAGE */
     form {
         max-width: 50%;
+    }
+
+    footer {
+        font-size: 100%;
     }
 }
 
