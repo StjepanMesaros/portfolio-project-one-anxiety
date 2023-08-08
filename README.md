@@ -2,6 +2,7 @@
 
 [View the live website here.](https://stjepanmesaros.github.io/portfolio-project-one-anxiety/)
 
+## Project Rationale
 This is an educational and informative website concerning Anxiety; one of highly spread out mental health illnesses. The website specifically aims to inform it's viewers about what exactly is anxiety and how we can essentially cope with it. Visitors are presented with an array of helplines ready for them with just a click away located in the footer of every page. For visitors convenience a "Contact Us" page was created as well that will allow them to get in touch if they need any extra information or help.
 
 <h2 align="center"><img src="assets/images/responsive-representation.png"></h2>
@@ -37,6 +38,7 @@ This is an educational and informative website concerning Anxiety; one of highly
     -   [Home Page](assets/images/wireframe-1.png)
     -   [Coping Mechanisms Page](assets/images/wireframe-2.png)
     -   [Contact Us Page](assets/images/wireframe-3.png)
+    -   [Thank You Page](assets/images/wireframe-4.png)
 ## Features
 
 -   ### All Pages
