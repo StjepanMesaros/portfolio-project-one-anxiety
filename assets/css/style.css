@@ -257,6 +257,8 @@ input {
 
 @media screen and (min-width: 425px) {
     footer {
+        margin-top: 25px;
+        padding: 1.5%;
         font-size: 70%;
     }
 }

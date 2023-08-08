@@ -65,16 +65,14 @@ This is an educational and informative website concerning Anxiety; one of highly
 
 ### Frameworks, Libraries & Programs Used
 
--   [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the navigation bar and footer links to add the underline effect while being hovered over.
 -   [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Agdasima and Bacasime Antique' font into the style.css file which is used on all pages throughout the project.
 -   [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
--   [Draw.io](https://app.diagrams.net/)
-    - Draw.io was used to create the [wireframes](#wireframes) during the design process.
+-   [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
+    - Balsamiq was used to create the [wireframes](#wireframes) during the design process.
 
 ## Testing
 
