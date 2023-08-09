@@ -84,7 +84,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/css-validation.png)
 
 ### Accessibility Test
+To test the accessibility of the website [WAVE](https://wave.webaim.org/report#/https://stjepanmesaros.github.io/portfolio-project-one-anxiety/) was used.
+
+- [WAVE Results](assets/images/accessibility-report.png)
+
 ### Performance Test
+To test the performance of the website, Lighthouse testing for mobile and desktop was performed.
+
+- [Mobile Results](assets/images/lighthouse-test-mobile.png)
+- [Desktop Results](assets/images/lighthouse-test-desktop.png)
+
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -92,9 +101,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Bugs
+
+## Known Bugs
 
 -   Contact form does not actually send an email enquiry to anyone it just prompts a message as a thank you note.
+
+## Fixed Bugs
+
+-   Navigation bar would display a drop down menu after pressing any of the links while I was trying to set up a working dropdown menu. [View](assets/images/navigation-bar-bug.png) 
+    That was fixed by making the hover class display it as a flex so that it would appear properly. [View](assets/images/navigation-bar-bug-fix.png)
+
+-   Images from section one and two of the home page were not resizing with the window therefore they were making the text appear disproportionate. [View Image 1](assets/images/image-one-bug.png) [View Image 2](assets/images/image-two-bug.png)
+    Solution was to add images into separate divs of their own and set their max-width and auto height; from there I just had to position them. [View Image 1 Fix](assets/images/image-one-bug-fix.png) [View Image 2 Fix](assets/images/image-two-bug-fix.png)
 
 ## Deployment
 
