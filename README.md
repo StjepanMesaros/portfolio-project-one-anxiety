@@ -30,7 +30,7 @@ This is an educational and informative website concerning Anxiety; one of highly
         -   Images were chosen in regards to the topic of the website; meaning that they were chosen to be calm and stylish and artistic.   
 
 *   ### Wireframes
-    I created wireframes using the wireframe [draw.io](https://app.diagrams.net/) website. .
+    I created wireframes using the wireframe [Balsamiq](https://balsamiq.com/wireframes/desktop/#) website. .
 
     The website has 3 pages, namely Home page, Coping mechanisms page and a Contact page. The website is also linked to a confirmation page, which show as a "Thank you" note to the visitor after filling out the textinputs and pressing the submit button of the contact form.
 
