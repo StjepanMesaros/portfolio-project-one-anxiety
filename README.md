@@ -28,10 +28,19 @@ This is an educational and informative website concerning Anxiety; one of highly
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
+* [Testing](#testing)
+    * [Code Validation](#code-validation)
+    * [Accessibility Test](#accessibility-test)
+    * [Performance Test](#performance-test)
+    * [Feature Testing](#feature-testing)
+    * [Browser Support Testing](#browser-support-testing)
+
+* [Bugs](#bugs)
+
 * [Deployment](#deployment)
   * [GitHub Pages](#github-pages)
 
-* [Testing](#testing)
+* [SEO](#seo)
 
 * [Credits](#credits)
   * [Code](#code)
@@ -149,9 +158,7 @@ To test the performance of the website, Lighthouse testing for mobile and deskto
 
     <h3 align="center"><img src="assets/images/lighthouse-mobile.png"></h3>
 
-### Further Testing
-
-## Feature Testing
+### Feature Testing
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
@@ -171,7 +178,7 @@ To test the performance of the website, Lighthouse testing for mobile and deskto
 | Contact form | If anything is left unfilled a pop up message will show up with a warning and if filled correctly a thank you page will show up | Clicked submit while leaving form unfillled | Form requested sections to be filled in | Pass |
 | Contact form | If anything is left unfilled a pop up message will show up with a warning and if filled correctly a thank you page will show up | Clicked submit while fully filled form | Thank you page appeared | Pass |
 
-## Browser Support Testing
+### Browser Support Testing
 
 | Device/Browser | Expected Performance | Testing Performed | Result |
 | --- | --- | --- | --- |
