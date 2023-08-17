@@ -120,13 +120,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Accessibility Test
 To test the accessibility of the website [WAVE](https://wave.webaim.org/report#/https://stjepanmesaros.github.io/portfolio-project-one-anxiety/) was used.
 
-- [WAVE Results](assets/images/accessibility-report.png)
+- Wave Results
+
+<h3 align="center"><img src="assets/images/accessibility-report.png"></h3>
 
 ### Performance Test
 To test the performance of the website, Lighthouse testing for mobile and desktop was performed.
 
-- [Mobile Results](assets/images/lighthouse-test-mobile.png)
-- [Desktop Results](assets/images/lighthouse-test-desktop.png)
+- Desktop Results
+
+<h3 align="center"><img src="assets/images/lighthouse-desktop.png"></h3>
+
+- Mobile Results
+
+<h3 align="center"><img src="assets/images/lighthouse-mobile.png"></h3>
 
 ### Further Testing
 
