@@ -114,17 +114,19 @@ header #nav-bar ul li:hover > ul {
 /* Footer */
 footer {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
     letter-spacing: 1px;
-    font-size: 50%;
+    font-size: 80%;
 }
 
 footer a {
     text-decoration: none;
     color: inherit;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 footer a:hover {
@@ -212,6 +214,13 @@ input {
 }
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 425px) {
+    footer {
+        margin-top: 25px;
+        padding: 1.5%;
+        flex-direction: row;
+    }
+}
 
 @media screen and (min-width: 600px) {
     /* HOME PAGE */
@@ -251,18 +260,14 @@ input {
         max-width: 200px;
     }
     footer {
-        font-size: 60%;
+        font-size: 100%;
     }
-    
+    footer a {
+        margin-right: 25px;
+    }
 }
 
-@media screen and (min-width: 425px) {
-    footer {
-        margin-top: 25px;
-        padding: 1.5%;
-        font-size: 70%;
-    }
-}
+
 
 @media screen and (min-width: 800px) {
     /* HOME PAGE */
@@ -282,9 +287,6 @@ input {
 
     #section-one, #section-two {
         margin-top: 5%;
-    }
-    footer {
-        font-size: 80%;
     }
 }
 

@@ -7,6 +7,40 @@ This is an educational and informative website concerning Anxiety; one of highly
 
 <h2 align="center"><img src="assets/images/responsive-representation.png"></h2>
 
+## CONTENTS
+
+* [User Experience](#user-experience-ux)
+  * [User Stories](#user-stories)
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
 ## User Experience (UX)
 
 -   ### User stories
@@ -80,8 +114,8 @@ This is an educational and informative website concerning Anxiety; one of highly
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/html-validation.png)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/css-validation.png)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - <h3 align="center"><img src="assets/images/html-validation.png"></h3>
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - <h3 align="center"><img src="assets/images/css-validation.png"></h3>
 
 ### Accessibility Test
 To test the accessibility of the website [WAVE](https://wave.webaim.org/report#/https://stjepanmesaros.github.io/portfolio-project-one-anxiety/) was used.
