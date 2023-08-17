@@ -174,7 +174,7 @@ To test the performance of the website, Lighthouse testing for mobile and deskto
 ## Browser Support Testing
 
 | Device/Browser | Expected Performance | Testing Performed | Result |
-|  |  |  |  |
+| --- | --- | --- | --- |
 | Google Chrome | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
 |  |  |  |  |
 | Brave | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
