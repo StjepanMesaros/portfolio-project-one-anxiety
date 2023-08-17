@@ -160,15 +160,12 @@ To test the performance of the website, Lighthouse testing for mobile and deskto
 | What is it? | When clicked the user will be redirected to the home page. | Clicked the link | Redirected to the home page. | Pass |
 | Coping Mechanism | When clicked the user will be redirected to the coping mechanism page.| Clicked link | Redirected to the coping mechanism page. | Pass |
 | Contact us | When clicked the user will be redirected to the contact us page. | Clicked link | Redirected to the contact us page. | Pass |
-| --- | --- | --- | --- | --- |
 | `Footer` |
 |  |  |  |  |  |
 | Helpine links | When clicked the user will be redirected to the appropriate helpline page in a new window. | Clicked icon | Redirected to the helpline page in a new window. | Pass |
-| --- | --- | --- | --- | --- |
 | `Coping Mechanism Page` |
 |   |   |   |   |
 | Youtube Video | When clicked will play a youtube video about mental health | Clicked on the video | Played a video about mental health | Pass |
-| --- | --- | --- | --- | --- |
 | `Contact Page` |
 |   |   |   |   |
 | Contact form | If anything is left unfilled a pop up message will show up with a warning and if filled correctly a thank you page will show up | Clicked submit while leaving form unfillled | Form requested sections to be filled in | Pass |
@@ -177,19 +174,19 @@ To test the performance of the website, Lighthouse testing for mobile and deskto
 ## Browser Support Testing
 
 | Device/Browser | Expected Performance | Testing Performed | Result |
-| --- | --- | --- | --- |
+|  |  |  |  |
 | Google Chrome | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
-| --- | --- | --- | --- |
+|  |  |  |  |
 | Brave | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
-| --- | --- | --- | --- |
+|  |  |  |  |
 | Safari | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. ||
-| --- | --- | --- | --- |
+|  |  |  |  |
 | Internet Explorer | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
-| --- | --- | --- | --- |
+|  |  |  |  |
 | Microsoft Edge | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
-| --- | --- | --- | --- |
+|  |  |  |  |
 | iPhone 13 Pro Max | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
-| --- | --- | --- | --- |
+|  |  |  |  |
 | Samsung s21 | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
 
 ## Bugs <h5>[Back To top](#contents)</h5>
