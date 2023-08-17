@@ -13,6 +13,7 @@ body {
     color: #3a3a3a;
 }
 
+
 /* TITLE AND TOP CONTAINER */
 #top-container {
     display: flex;
@@ -33,6 +34,7 @@ h2 {
     letter-spacing: 3px;
     color: #3a3a3a;
 }
+
 
 /* NAVIGATION BAR */
 #menu-list {
@@ -61,6 +63,7 @@ header #nav-bar ul li:hover > ul {
     border-bottom: solid 1px #3a3a3a;
 }
 
+
 /* HOME PAGE SECTION ONE */
 #section-one {
     display: flex;
@@ -75,7 +78,6 @@ header #nav-bar ul li:hover > ul {
     margin-top: 15px;
     word-spacing: 1px;
     letter-spacing: 0.25px;
-    
 }
 
 #section-one-image img {
@@ -90,7 +92,6 @@ header #nav-bar ul li:hover > ul {
     display: flex;
     flex-direction: column;
 }
-
 
 #section-two-content {
     padding: 15% 10% 10% 10%;
@@ -133,6 +134,7 @@ footer a:hover {
     border-bottom: solid 1px #3a3a3a;
 }
 
+
 /* COPING MECHANISM PAGE */
 #coping-mechanisms-section-one {
     background-color: rgba(248, 210, 128, 0.8);
@@ -161,6 +163,7 @@ footer a:hover {
     justify-content: center;
 }
 
+
 /* CONTACT US PAGE */
 #contact-us-body {
     background-color: rgba(248, 210, 128, 0.8);
@@ -182,7 +185,6 @@ form {
     flex-direction: column;
     max-width: 70%;
     margin: auto;
-
 }
 
 form label,
@@ -192,8 +194,8 @@ input {
     border-radius: 10px;
 }
 
-/* THANK YOU PAGE */
 
+/* THANK YOU PAGE */
 #thank-you-message {
     display: flex;
     flex-direction: column;
@@ -213,6 +215,7 @@ input {
     margin-top: 15px;
 }
 
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 425px) {
     footer {
@@ -223,6 +226,7 @@ input {
 }
 
 @media screen and (min-width: 600px) {
+
     /* HOME PAGE */
     header #nav-bar ul li:hover > ul {
         display: flex;
@@ -249,27 +253,30 @@ input {
         margin: auto;
     }
 
+
     /* COPING MECHANISMS PAGE */
     iframe {
         width: 700px;
         height: 400px;
     }
 
+
     /* CONTACT US PAGE */
     #submit {
         max-width: 200px;
     }
+
     footer {
         font-size: 100%;
     }
+
     footer a {
         margin-right: 25px;
     }
 }
 
-
-
 @media screen and (min-width: 800px) {
+   
     /* HOME PAGE */
     #section-one-image {
         max-width: 60%;
@@ -280,6 +287,7 @@ input {
         max-width: 50%;
         margin: auto;
     }
+
      /* Changed padding for homepage and coping mechanisms page */
     #section-one-content, #section-two-content, #coping-mechanisms-section-one {
         padding: 5%;
@@ -291,10 +299,12 @@ input {
 }
 
 @media screen and (min-width: 1024px) {
+   
     /* HOME PAGE */
     #section-one, #section-two {
         flex-direction: row;
     }
+
     #section-two {
         padding: 2.5%;
     }
@@ -308,10 +318,10 @@ input {
     #section-two-image {
         max-width: 40%;
     }
-
 }
 
 @media screen and (min-width: 1440px) {
+   
     /* HOME PAGE */
     #section-one-image {
         max-width: 45%;
@@ -320,6 +330,7 @@ input {
     #section-two-image {
         max-width: 30%;
     }
+
 
     /* CONTACT US PAGE */
     form {
@@ -335,6 +346,7 @@ input {
     body {
         font-size: 150%;
     }
+  
     /* HOME PAGE */
     #section-one-image {
         width: 60%;
@@ -344,9 +356,9 @@ input {
         max-width: 30%;
     }
 
+
     /* CONTACT US PAGE */
     form {
         max-width: 50%;
     }
 }
-
