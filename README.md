@@ -273,3 +273,5 @@ To improve the search engine optimisation (SEO) of the website:
 -   My Mentor for continuous helpful feedback.
 
 -   My peers for helpful links and sharing of knowledge.
+
+-   Youtube channel [HowToCodeSchool](https://www.youtube.com/watch?v=eKo1NV1qxbc) for help with a drop down menu
