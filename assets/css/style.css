@@ -38,6 +38,7 @@ h2 {
 #menu-list {
     display: none;
 }
+
 header #nav-bar ul li:hover > ul {
     display: initial;
 }
