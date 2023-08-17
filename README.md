@@ -19,29 +19,27 @@ This is an educational and informative website concerning Anxiety; one of highly
   * [Wireframes](#wireframes)
 
 * [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
+  * [General Features on Each Page](#all-pages)
+  * [Home Page](#home-page)
+  * [Coping Mechanisms Page](#coping-mechanisms-page)
+  * [Contact Page](#contact-page)
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
+* [Deployment](#deployment)
+  * [GitHub Pages](#github-pages)
 
 * [Testing](#testing)
 
 * [Credits](#credits)
-  * [Code Used](#code-used)
+  * [Code](#code)
   * [Content](#content)
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
-## User Experience (UX)
+## User Experience (UX) <h5>[Back To top](#contents)</h5>
 
 -   ### User stories
 
@@ -55,25 +53,37 @@ This is an educational and informative website concerning Anxiety; one of highly
         -   As a Returning Visitor, I want to refresh my information about mental health.
         -   As a Returning Visitor, I want to find new and updated information.
 
--   ### Design
-    -   #### Colour Scheme
-        -   The color pallete used incorporates warm and calming colors to easily introduce the visitor with the website. Section background yellow color matches the color of the home page main picture.
-    -   #### Typography
-        -   The fonts used are Agdasima for headings and Bacasime Antique for text; sans-serif as a fallback font.
-    -   #### Imagery
-        -   Images were chosen in regards to the topic of the website; meaning that they were chosen to be calm and stylish and artistic.   
+## Design <h5>[Back To top](#contents)</h5>
 
-*   ### Wireframes
+-   ### Colour Scheme
+    -   The color pallete used incorporates warm and calming colors to easily introduce the visitor with the website. Section background yellow color matches the color of the home page main picture.
+
+-   ### Typography
+    -   The fonts used are Agdasima for headings and Bacasime Antique for text; sans-serif as a fallback font.
+
+-   ### Imagery
+    -   Images were chosen in regards to the topic of the website; meaning that they were chosen to be calm and stylish and artistic.   
+
+-   ### Wireframes
     I created wireframes using the wireframe [Balsamiq](https://balsamiq.com/wireframes/desktop/#) website. .
 
     The website has 3 pages, namely Home page, Coping mechanisms page and a Contact page. The website is also linked to a confirmation page, which show as a "Thank you" note to the visitor after filling out the textinputs and pressing the submit button of the contact form.
 
     Here are the wireframes for each page:
-    -   [Home Page](assets/images/wireframe-1.png)
-    -   [Coping Mechanisms Page](assets/images/wireframe-2.png)
-    -   [Contact Us Page](assets/images/wireframe-3.png)
-    -   [Thank You Page](assets/images/wireframe-4.png)
-## Features
+    -   Home Page
+        <h3 align="center"><img src="assets/images/wireframe-1.png"></h3>
+    
+    -   Coping Mechanisms Page
+        <h3 align="center"><img src="assets/images/wireframe-2.png"></h3>
+    
+    -   Contact Us Page
+        <h3 align="center"><img src="assets/images/wireframe-3.png"></h3>
+    
+    -   Thank You Page
+        <h3 align="center"><img src="assets/images/wireframe-4.png"></h3>
+
+## Features <h5>[Back To top](#contents)</h5>
+
 
 -   ### All Pages
     -   #### Navbar
@@ -84,13 +94,13 @@ This is an educational and informative website concerning Anxiety; one of highly
 -   ### Home page
     -   Home page has two sections to it; first one aims to quickly inform what is anxiety and the second section aims to help visitors understand what can cause anxiety.
 
--   ### Coping Mechanism page
+-   ### Coping Mechanisms page
     -   Coping mechanism page offers two ways to deal with anxiety and it also features a captivating one minute video that aims to educated viewer about mental health in on eminute.
 
 -   ### Contact page
     -   Contact page features a form that a visitor can fill out and submit which would contact the site owner with the query.
 
-## Technologies Used
+## Technologies Used <h5>[Back To top](#contents)</h5>
 
 ### Languages Used
 
@@ -108,32 +118,35 @@ This is an educational and informative website concerning Anxiety; one of highly
 -   [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
     - Balsamiq was used to create the [wireframes](#wireframes) during the design process.
 
-## Testing
+## Testing  <h5>[Back To top](#contents)</h5>
 
 ### Code Validation
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - <h3 align="center"><img src="assets/images/html-validation.png"></h3>
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - <h3 align="center"><img src="assets/images/css-validation.png"></h3>
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    <h3 align="center"><img src="assets/images/html-validation.png"></h3>
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    <h3 align="center"><img src="assets/images/css-validation.png"></h3>
 
 ### Accessibility Test
 To test the accessibility of the website [WAVE](https://wave.webaim.org/report#/https://stjepanmesaros.github.io/portfolio-project-one-anxiety/) was used.
 
 - Wave Results
 
-<h3 align="center"><img src="assets/images/accessibility-report.png"></h3>
+    <h3 align="center"><img src="assets/images/accessibility-report.png"></h3>
 
 ### Performance Test
 To test the performance of the website, Lighthouse testing for mobile and desktop was performed.
 
 - Desktop Results
 
-<h3 align="center"><img src="assets/images/lighthouse-desktop.png"></h3>
+    <h3 align="center"><img src="assets/images/lighthouse-desktop.png"></h3>
 
 - Mobile Results
 
-<h3 align="center"><img src="assets/images/lighthouse-mobile.png"></h3>
+    <h3 align="center"><img src="assets/images/lighthouse-mobile.png"></h3>
 
 ### Further Testing
 
@@ -142,21 +155,28 @@ To test the performance of the website, Lighthouse testing for mobile and deskto
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Bugs
+## Bugs <h5>[Back To top](#contents)</h5>
 
-## Known Bugs
+### Known Bugs
 
 -   Contact form does not actually send an email enquiry to anyone it just prompts a message as a thank you note.
 
-## Fixed Bugs
+### Fixed Bugs
 
--   Navigation bar would display a drop down menu after pressing any of the links while I was trying to set up a working dropdown menu. [View](assets/images/navigation-bar-bug.png) 
-    That was fixed by making the hover class display it as a flex so that it would appear properly. [View](assets/images/navigation-bar-bug-fix.png)
+-   Navigation bar would display a drop down menu after pressing any of the links while I was trying to set up a working dropdown menu. 
+    <h3 align="center"><img src="assets/images/navigation-bar-bug.png"></h3>
 
--   Images from section one and two of the home page were not resizing with the window therefore they were making the text appear disproportionate. [View Image 1](assets/images/image-one-bug.png) [View Image 2](assets/images/image-two-bug.png)
-    Solution was to add images into separate divs of their own and set their max-width and auto height; from there I just had to position them. [View Image 1 Fix](assets/images/image-one-bug-fix.png) [View Image 2 Fix](assets/images/image-two-bug-fix.png)
+    That was fixed by making the hover class display it as a flex so that it would appear properly. <h3 align="center"><img src="assets/images/navigation-bar-bug-fix.png"></h3>
 
-## Deployment
+-   Images from section one and two of the home page were not resizing with the window therefore they were making the text appear disproportionate. 
+    <h3 align="center"><img src="assets/images/image-one-bug.png"></h3>
+    <h3 align="center"><img src="assets/images/image-two-bug.png"></h3>
+    
+    Solution was to add images into separate divs of their own and set their max-width and auto height; from there I just had to position them. 
+    <h3 align="center"><img src="assets/images/image-one-bug-fix.png"></h3>
+    <h3 align="center"><img src="assets/images/image-two-bug-fix.png"></h3>
+
+## Deployment <h5>[Back To top](#contents)</h5>
 
 ### GitHub Pages
 
@@ -169,7 +189,7 @@ The project was deployed to GitHub Pages using the following steps:
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site in the "GitHub Pages" section.
 
-## SEO
+## SEO <h5>[Back To top](#contents)</h5>
 To improve the search engine optimisation (SEO) of the website:
 
 - We added keywords in a meta tags to each html file. The keywords were researched using [WordTracker](https://www.wordtracker.com/), there are a number of short-tail and long-tail keywords.
@@ -189,7 +209,7 @@ To improve the search engine optimisation (SEO) of the website:
     - Anxiety disorder.
     - Anxiety.
 
-## Credits
+## Credits <h5>[Back To top](#contents)</h5>
 
 ### Code
 
