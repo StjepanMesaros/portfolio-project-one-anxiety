@@ -37,7 +37,7 @@ This is an educational and informative website concerning Anxiety; one of highly
   * [Code](#code)
   * [Content](#content)
   * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
+  * [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX) <h5>[Back To top](#contents)</h5>
 
@@ -57,6 +57,7 @@ This is an educational and informative website concerning Anxiety; one of highly
 
 -   ### Colour Scheme
     -   The color pallete used incorporates warm and calming colors to easily introduce the visitor with the website. Section background yellow color matches the color of the home page main picture.
+        <h3 align="center"><img src="assets/images/color-scheme.png"></h3>
 
 -   ### Typography
     -   The fonts used are Agdasima for headings and Bacasime Antique for text; sans-serif as a fallback font.
@@ -150,10 +151,40 @@ To test the performance of the website, Lighthouse testing for mobile and deskto
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, 4K Screen, iPhone 13 Pro Max & iPad.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+## Feature Testing
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| `Navbar` |
+|  |  |  |  |  |
+| What is it? | When clicked the user will be redirected to the home page. | Clicked the link | Redirected to the home page. | Pass |
+| Coping Mechanism | When clicked the user will be redirected to the coping mechanism page.| Clicked link | Redirected to the coping mechanism page. | Pass |
+| Contact us | When clicked the user will be redirected to the contact us page. | Clicked link | Redirected to the contact us page. | Pass |
+| --- | --- | --- | --- | --- |
+| `Footer` |
+|  |  |  |  |  |
+| Helpine links | When clicked the user will be redirected to the appropriate helpline page in a new window. | Clicked icon | Redirected to the helpline page in a new window. | Pass |
+| --- | --- | --- | --- | --- |
+| `Coping Mechanism Page` |
+|   |   |   |   |
+| Youtube Video | When clicked will play a youtube video about mental health | Clicked on the video | Played a video about mental health | Pass |
+| --- | --- | --- | --- | --- |
+| `Contact Page` |
+|   |   |   |   |
+| Contact form | If anything is left unfilled a pop up message will show up with a warning and if filled correctly a thank you page will show up | Clicked submit while leaving form unfillled | Form requested sections to be filled in | Pass |
+| Contact form | If anything is left unfilled a pop up message will show up with a warning and if filled correctly a thank you page will show up | Clicked submit while fully filled form | Thank you page appeared | Pass |
+
+## Browser Support Testing
+
+| Device/Browser | Expected Performance | Testing Performed | Result |
+| --- | --- | --- | --- | --- |
+| Google Chrome | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
+| Brave | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
+| Safari | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. ||
+| Internet Explorer | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
+| Microsoft Edge | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
+| iPhone 13 Pro Max | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
+| Samsung s21 | Full functionality of external and internal links as well as full functionality of the form element. | Tested all features, links, video and form. | Passed with full functionality. |
 
 ## Bugs <h5>[Back To top](#contents)</h5>
 
